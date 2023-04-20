@@ -15,19 +15,7 @@ Thumbs.db
 
 # Composer #
 ##########
-!preview/js/vendor/
-wpcs/
 /vendor/
-/node_modules/
-
-preview/images/.DS_Store
 
 # PhpStrom Project Files #
 .idea/
-
-# Build folder
-.build/*.zip
-/.build/tmp/
-/lib/
-/src/Modules/**/*.css.map
-/assets/public/
