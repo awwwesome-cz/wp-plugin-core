@@ -1,0 +1,32 @@
+{
+  "name": "awwwesome-cz/wp-plugin-core",
+  "description": "The WP plugin wrapping library style like Laravel.",
+  "license": "MIT",
+  "keywords": ["wordpress", "plugin", "wrapper", "laravel like"],
+  "homepage": "https://github.com/awwwesome-cz/wp-plugin-core",
+  "support": {
+    "issues": "https://github.com/awwwesome-cz/wp-plugin-core/issues",
+    "source": "https://github.com/awwwesome-cz/wp-plugin-core"
+  },
+  "authors": [
+    {
+      "name": "Jakub Josef Forman",
+      "email": "info@awwwesome.cz",
+      "homepage": "https://awwwesome.cz",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "roots/wordpress-no-content": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Awwwesome\\": "src/Awwwesome"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
